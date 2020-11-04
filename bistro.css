@@ -1,0 +1,59 @@
+
+/* Tło */
+body {
+	 background-color:rgba(179, 86, 0, 0.2);
+	 display: block; 
+	 width: 800px;
+	 margin: auto; 
+}
+
+/* Kontener div z obrazkiem */ 
+div, img {
+	 background-size:cover; 
+	 width: 250px;
+	 height: 250px;
+	 border-radius: 100%;
+	 display: block; 
+	 margin-left: auto;
+	 margin-right: auto;
+ }
+
+
+/*wstęp tytuł */
+header {
+	width: 800px;
+	display: block; 
+	margin: auto;
+	
+	color: #663100; 
+	font-family: 'Josefin Sans', sans-serif; 
+	font-size: 36px;
+}
+
+
+/* Pozioma linia kolor */
+hr {
+	border-bottom: 2px solid #663100; 
+}
+
+
+/* Pozostałe nagłówki */
+ h3 {
+	color: #e66b00; 
+	font-family: 'Josefin Sans', sans-serif; 
+	font-size: 26px;	
+}
+
+
+/* Pozostały tekst, paragrafy */ 
+p{
+	font-family: 'Josefin Sans', sans-serif; 
+	font-size: 18px;	
+	text-align: justify;
+}
+
+
+
+
+
+
