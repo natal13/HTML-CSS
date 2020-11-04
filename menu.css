@@ -1,0 +1,38 @@
+ 
+ /*Tło menu */     
+ nav{
+	background: #F4DCFA;
+    width: 32%;
+    border-top: 3px solid #CF5990;
+    border-bottom: 3px solid #CF5990;
+    padding-bottom: 1px;
+ }
+	 
+/* Ułożenie */	 
+li{
+    display: inline-block;
+    margin-left: -4px;
+}
+
+/* Tekst w menu */
+ a{
+    display: block;
+    font-size: 18px;
+	font-family: 'Josefin Sans', sans-serif;
+    padding: 0px 12px 3px 12px;
+    margin: 7px 0;
+    color: #367EC7;
+    line-height: 17px;
+    border-right: 2px solid #4679BD;
+    text-decoration: none;
+}
+
+/* Podświetlenie przy kursorze */
+  a:hover{
+    color: #660033;
+}
+
+/* Ograniczenie widoczności ramki */
+ li:last-child a{
+    border-right: none;
+}
