@@ -1,0 +1,202 @@
+
+ *{
+ margin: 0;
+ }
+ 
+ body {
+	background-color: #ECEFF1;
+	margin: 10px auto; 
+	
+ }
+ 
+ 
+ h2 {
+	text-align: left;
+	color: black; 
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+	
+ p {
+	font-size: 17px; 
+	padding: 2px;
+	overflow: hidden;
+	justify-content: space-around;
+}
+ 
+ 
+  section {
+
+    justify-content: center; 
+	margin-top: 20px; 
+	margin-left: 5%;
+	margin-right: 5%;
+	display: -webkit-flex;
+    display: flex;
+ }
+ 	 
+	 
+ .lewa .dol{
+	flex: 1 1 auto;
+	display: flex;
+	flex-direction: row;
+	border-radius: 20px;
+	margin: 0;
+}
+ 
+ .lewa {
+	float:left;
+	margin:2px;
+	padding:5px;
+	
+}
+
+.prawa {
+	float:left;
+	margin:2px;
+	padding:5px;
+	
+}
+ 	 	 
+	 
+.b1 {
+	background: #9BCAFA;
+	padding: 10px;
+	box-shadow: 0 2px 5px 0 black;
+	border-radius: 20px 0 0 0 ; 	 
+}	 
+	 
+.b2 {
+	background: #9BCAFA;
+	padding: 10px;
+	margin-top: 10px;	
+	margin-right: 10px;
+	width: 50%;
+	height: 50%;
+	box-shadow: 0 4px 5px 0 black;
+	border-radius: 0 0 0 20px;
+}	 
+	 	 
+.b3 {
+	background:#9BCAFA;
+	padding: 10px;
+	margin-top: 10px;
+	width: 50%;
+	height: 50%;
+	box-shadow: 0 4px 5px 0 black;
+
+}	 
+ 
+	 
+ .b4 {
+	background: #9BCAFA; 
+	padding: 10px;
+	width: 50%;	
+	height:96%;
+	box-shadow: 0 4px 5px 0 black;	
+	border-radius: 0 20px 20px 0;
+
+	 
+}
+ 	 
+	 
+
+/*					800px 						*/
+
+    @media screen and (max-width: 800px) {
+        section {
+			flex-direction: column;
+			padding: 20px; 
+        }
+		
+			
+		.b1{
+			border-radius: 20px 20px 0 0; 
+				
+		}
+
+		.b2{
+			border-radius: 0 0 0 0; 
+			width: 50%;
+			height: 50%;				
+		}			
+			
+		.b3{
+			border-radius: 0 0 0 0; 
+			width: 50%;
+			height: 50%;								
+		}
+					
+			.b4{			
+			border-radius: 0 0 20px 20px; 
+			width: 95%;
+			height: auto; 				
+		}
+		
+    }
+
+
+ 
+ /*					400px 						*/
+					
+	@media screen and (max-width: 400px) {
+        section {         
+			padding: 20px; 		
+			float: none;
+			-webkit-flex-direction: column;
+			flex-direction: column;
+			-webkit-flex: 1;
+			flex: 1;
+			display:flex;
+				
+        }
+			
+		.lewa .dol {
+			display: flex;
+			flex-direction: column;
+			float: none;
+			width: 100%;
+			flex-wrap: wrap;  
+		}
+				
+			
+		.b1{
+			border-radius: 20px 20px 0 0; 
+			order: 1;
+		}
+		
+		.b2{
+			border-radius: 0 0 0 0; 
+			order: 2;				
+		}
+			
+			
+		.b3{
+			border-radius: 0 0 0 0; 
+			width: 50%;
+			order: 3;			
+		}
+						
+			.b4{
+			order: 4;
+			border-radius: 0 0 20px 20px; 
+			width: 96%;
+			height: auto; 
+				
+		}
+			
+    }
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
