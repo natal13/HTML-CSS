@@ -1,0 +1,165 @@
+
+.container {
+  position: relative;
+}
+
+header .Home {
+	float:left;
+	bottom: 2px;
+	right: 2px;
+	background-color: #2C005C;
+	font-family: "Lucida Grande", sans-serif;
+	color: white;
+	padding-left: 15px;
+	padding-right: 20px;
+	padding-bottom: 15px;
+	padding-top: 20px;
+	border-top-right-radius: 20%;
+}
+
+
+#strona h3 {
+	font-family: "Trebuchet MS", sans-serif; 
+	color: #6800D6;
+	font-size: 40px;
+	font-variant:small-caps;
+	text-align: center;
+	padding: 0;
+	margin:2px; 
+}
+
+	
+hr {
+	border: 2px solid #2C005C;
+	border-left: none;
+	border-right: none;
+	padding: 1px;
+	clear: both;
+	width: 100%
+}
+
+
+body{
+    padding: 5px 0;
+	text-align:center;
+	margin: 5px auto;
+	max-width: 60%;
+	box-shadow: 0px 0px 6px  black;
+}
+
+/*-----*/
+ul, ul li { 
+	text-decoration: none;
+	margin: 0;
+	padding: 0px;
+	display: block;
+	float: left;
+	margin-left: 27px;
+ }
+
+ul {
+	border-top: 1px ;
+	border-bottom: 1px ;
+	border-left: 1px;
+}
+ 
+ul a:link, ul a:visited { 
+	display: block;
+	background: none;
+	text-decoration: none;
+	padding: 7px;
+	color: #6800D6;
+	font-size: 21px;
+	font-family: "Trebuchet MS", sans-serif; 	
+}
+
+.glowne ul a:hover {  
+	border-bottom: 2px solid #B38BDD;
+	border-top: 2px solid #B38BDD;
+	border-left: 2px solid #B38BDD;
+	border-right: 2px solid #B38BDD; 
+
+ }
+/*-----*/
+
+
+/*--#--*/
+#menuBoczne {
+	position: fixed;
+	right: 0;
+	top: 50%;
+	width: 8em;
+	margin-top: -2.5em;
+	
+	opacity: 0.8;
+  
+  	background-color: #2C005C;
+	padding-left: 30px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	border-top-left-radius: 60%;
+	border-bottom-left-radius: 60%;  
+	border-bottom-right-radius: 16px;
+	border-top-right-radius: 16px;
+	right: 18%;
+  
+}
+
+
+#menuBoczne a{
+	display: block;
+	text-decoration: none;
+	padding: 7px;
+	color: white;
+	font-size: 15px;
+	font-family: "Trebuchet MS", sans-serif; 
+	
+}
+
+#menuBoczne a:hover {
+
+	text-decoration: underline;
+	
+	
+}
+
+/*--#--*/
+
+
+.ramka {
+	width: auto;
+	padding: 10px;
+	border: 1px solid black;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	margin: 2px;
+	background-color: #2C005C;
+}
+
+
+.ramka p {
+	font-family: "Lucida Grande", sans-serif;
+	font-size: 15px;
+	color: white;
+	text-align: justify;
+}
+
+
+.zwykly {
+	font-family: "Lucida Grande", sans-serif;
+	font-size: 15px;
+	color: black;
+	text-align: justify;
+}	
+
+	
+.tekst {
+	column-count: 2;
+	column-gap: 10px;
+	margin: 5px auto;
+	padding: 5px 10px;
+}
+ 
